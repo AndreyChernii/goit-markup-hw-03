@@ -11,6 +11,23 @@ body {
   color: var(--first-color);
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+
+.section{
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .link {
   text-decoration: none;
 }
@@ -86,6 +103,7 @@ body {
 /* ---------------------HERO--------------------- */
 .hero {
   background: #2f303a;
+  text-align: center;
 }
 .hero-title {
   font-weight: 900;
