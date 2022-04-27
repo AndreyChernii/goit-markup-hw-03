@@ -21,11 +21,35 @@ h6 {
   margin: 0;
 }
 
+ul,
+ol {
+  padding-left: 0;
+  margin: 0;
+}
 
-.section{
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+}
+
+.container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
+  margin: 0 auto;
+  outline: 1px solid red;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.nopdtop {
+  padding-top: 0;
 }
 
 .link {
@@ -48,6 +72,8 @@ h6 {
   margin: -1px;
 }
 .header {
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 .header-navigation {
 }
@@ -65,9 +91,10 @@ h6 {
 .header-list {
 }
 
-.header-link:{}
+.header-link: {
+}
 
-.header-list .current{
+.header-list .current {
   color: var(--accent-color);
 }
 
@@ -104,6 +131,8 @@ h6 {
 .hero {
   background: #2f303a;
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .hero-title {
   font-weight: 900;
@@ -112,8 +141,9 @@ h6 {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-
   color: var(--second-color);
+  margin-bottom: 30px;
+  max-width: 700px;
 }
 .hero-btn {
   font-weight: 700;
@@ -130,7 +160,7 @@ h6 {
 }
 
 .hero-btn:hover {
-  background-color: #188CE8;
+  background-color: #188ce8;
 }
 
 /* ---------------------peculiarities--------------------- */
@@ -138,7 +168,8 @@ h6 {
 }
 .peculiarities-list {
 }
-.peculiarities-item {
+.peculiarities-item-title {
+  margin-bottom: 10px;
 }
 .peculiarities-item-title {
   font-weight: 700;
@@ -167,7 +198,8 @@ h6 {
   line-height: 1.7;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--second-color);
+  color: var(--first-color);
+  margin-bottom: 50px;
 }
 .about-list {
 }
@@ -185,6 +217,7 @@ h6 {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--first-color);
+  margin-bottom: 50px;
 }
 .team-list {
 }
@@ -198,7 +231,13 @@ h6 {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--first-color);
+  margin-bottom: 10px;
 }
+
+.team-img {
+  margin-bottom: 30px;
+}
+
 .team-item-text {
   font-weight: 400;
   font-size: 16px;
@@ -220,10 +259,10 @@ h6 {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
-line-height: 1.19;
-letter-spacing: 0.03em;
-
+  line-height: 1.19;
+  letter-spacing: 0.03em;
   color: var(--second-color);
+  margin-bottom: 20px;
 }
 
 .footer-address-link {
@@ -233,6 +272,7 @@ letter-spacing: 0.03em;
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--second-color);
+  margin-bottom: 9px;
 }
 .footer-address-link:hover,
 .footer-address-link:focus {
@@ -251,6 +291,7 @@ letter-spacing: 0.03em;
   color: var(--accent-color);
 }
 .footer-mail {
+  margin-bottom: 9px;
 }
 .footer-tel {
 }
@@ -272,7 +313,7 @@ letter-spacing: 0.03em;
   border: none;
 }
 
-.filters-list .current-bg{
+.filters-list .current-bg {
   color: var(--second-color);
   background-color: var(--accent-color);
 }
@@ -285,9 +326,8 @@ letter-spacing: 0.03em;
 
 /* ---------------------projects--------------------- */
 
-
-.projects-item{
-  border: 1px solid #EEEEEE;
+.projects-item {
+  border: 1px solid #eeeeee;
 }
 
 .projects-item-title {
