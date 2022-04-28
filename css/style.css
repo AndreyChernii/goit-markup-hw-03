@@ -71,12 +71,23 @@ img {
   clip-path: inset(50%);
   margin: -1px;
 }
+
+
+
+/* ---------------------HEADER--------------------- */
+
+
 .header {
   padding-top: 24px;
   padding-bottom: 25px;
 }
-.header-navigation {
+
+.header .container {
+  display: flex;
+  align-items: center;
 }
+
+
 .header-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -138,7 +149,6 @@ img {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--second-color);
@@ -151,8 +161,6 @@ img {
   line-height: 1.87;
   color: var(--second-color);
   background-color: var(--accent-color);
-  display: flex;
-  align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   cursor: pointer;
